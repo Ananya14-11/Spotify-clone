@@ -21,6 +21,10 @@ body {
     width: 75vw;
 }
 
+.logo img{
+    width:100px;
+}
+
 .home ul li {
     display: flex;
     gap: 15px;
@@ -28,6 +32,14 @@ body {
     list-style: none;
     padding-top: 14px;
     font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.home ul li:hover {
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 .heading {
@@ -52,10 +64,12 @@ body {
 
 .footer {
     display: flex;
-    font-size: 10px;
+    font-size: 9px;
     color: grey;
-    gap: 13px;
+    gap: 5px;
     position: absolute;
+    align-items: center;
+    justify-content: space-between;
     bottom: 0;
     padding: 10px 0;
 }
@@ -63,6 +77,12 @@ body {
 
 .footer a {
     color: grey;
+    cursor: pointer;
+}
+
+.footer a:hover {
+    color: whitesmoke;
+    font-weight: bold;
 }
 
 .right {
@@ -111,9 +131,17 @@ body {
     object-fit: contain;
 }
 
+.cardPlay img {
+    position: absolute;
+    width: 40px;
+    left: 140px;
+    bottom: 137px;
+    cursor: pointer;
+}
+
 .card:hover {
     transform: scale(1.05);
-    
+
 }
 
 .play {
@@ -160,7 +188,7 @@ body {
     cursor: pointer;
     padding: 10px;
     font-size: 16px;
-    position:relative;
+    position: relative;
 }
 
 .loginbtn:hover {
