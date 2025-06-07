@@ -237,7 +237,7 @@ body {
 
 .songList ul li {
     list-style-type: decimal;
-    display: flex;
+     display: flex;
     justify-content: space-between;
     gap: 12px;
     cursor: pointer;
@@ -245,11 +245,14 @@ body {
     border: 1px solid white;
     border-radius: 5px;
     margin: 12px 0;
+    margin-left: 5px;
     padding: 13px;
+    font-size: 10px;
+    align-items: center;
 }
 
 .songlist .info {
-    font-size: 13px;
+    font-size: 8px;
     width: 344px;
 }
 
@@ -279,6 +282,7 @@ body {
     bottom: 2px;
     padding: 1px;
     cursor: pointer;
+    
 }
 
 .circle {
