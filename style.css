@@ -21,8 +21,8 @@ body {
     width: 75vw;
 }
 
-.logo img{
-    width:100px;
+.logo img {
+    width: 100px;
 }
 
 .home ul li {
@@ -115,7 +115,7 @@ body {
 }
 
 .card {
-    width: 175px;
+    width: 170px;
     padding: 12px;
     border-radius: 8px;
     background-color: #252525;
@@ -131,17 +131,22 @@ body {
     object-fit: contain;
 }
 
-.cardPlay img {
+.cardPlay img{
     position: absolute;
-    width: 40px;
-    left: 140px;
+    left: 144px;
     bottom: 137px;
-    cursor: pointer;
+    width:33px;
+    filter:invert(1);
 }
 
 .card:hover {
     transform: scale(1.05);
+    background-color: #373737;
+}
 
+.card:hover .cardPlay img{
+    width:40px;
+    
 }
 
 .play {
